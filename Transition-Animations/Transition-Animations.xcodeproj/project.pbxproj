@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,20 +12,36 @@
 		2000FAD624FFE06F00414865 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2000FAD524FFE06F00414865 /* SecondViewController.swift */; };
 		2000FAD824FFE08900414865 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2000FAD724FFE08900414865 /* DetailViewController.swift */; };
 		2000FADA24FFE27300414865 /* TabBarItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2000FAD924FFE27300414865 /* TabBarItemType.swift */; };
+		2000FAE025010DF700414865 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2000FADF25010DF700414865 /* APIClient.swift */; };
+		20342BA02508FAE700BA899E /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20342B9F2508FAE700BA899E /* RequestProtocol.swift */; };
+		20342BA62509163A00BA899E /* ErrorObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20342BA52509163A00BA899E /* ErrorObject.swift */; };
+		20342BA82509170900BA899E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20342BA72509170900BA899E /* Response.swift */; };
+		20342BAA2509357900BA899E /* GetInfoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20342BA92509357900BA899E /* GetInfoRequest.swift */; };
+		20342BAD2509373000BA899E /* GetInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20342BAC2509373000BA899E /* GetInfoService.swift */; };
+		2040CDC82508F3DD00EC3904 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2040CDC72508F3DD00EC3904 /* RequestBuilder.swift */; };
 		20C90EE924FFCD2800D03BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C90EE824FFCD2800D03BD4 /* AppDelegate.swift */; };
 		20C90EEB24FFCD2800D03BD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C90EEA24FFCD2800D03BD4 /* SceneDelegate.swift */; };
 		20C90EED24FFCD2800D03BD4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C90EEC24FFCD2800D03BD4 /* FirstViewController.swift */; };
 		20C90EF024FFCD2800D03BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C90EEE24FFCD2800D03BD4 /* Main.storyboard */; };
 		20C90EF224FFCD2B00D03BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C90EF124FFCD2B00D03BD4 /* Assets.xcassets */; };
 		20C90EF524FFCD2B00D03BD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C90EF324FFCD2B00D03BD4 /* LaunchScreen.storyboard */; };
+		882AF3FE7511C893B01EBB54 /* Pods_Transition_Animations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D3DE6C2271E57899C34B81E /* Pods_Transition_Animations.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D3DE6C2271E57899C34B81E /* Pods_Transition_Animations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Transition_Animations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2000FAD124FFDEE200414865 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		2000FAD324FFDF0C00414865 /* TabBarBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarBuilder.swift; sourceTree = "<group>"; };
 		2000FAD524FFE06F00414865 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		2000FAD724FFE08900414865 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		2000FAD924FFE27300414865 /* TabBarItemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemType.swift; sourceTree = "<group>"; };
+		2000FADF25010DF700414865 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		20342B9F2508FAE700BA899E /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		20342BA52509163A00BA899E /* ErrorObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorObject.swift; sourceTree = "<group>"; };
+		20342BA72509170900BA899E /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		20342BA92509357900BA899E /* GetInfoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInfoRequest.swift; sourceTree = "<group>"; };
+		20342BAC2509373000BA899E /* GetInfoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInfoService.swift; sourceTree = "<group>"; };
+		2040CDC72508F3DD00EC3904 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
 		20C90EE524FFCD2800D03BD4 /* Transition-Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Transition-Animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C90EE824FFCD2800D03BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20C90EEA24FFCD2800D03BD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +50,8 @@
 		20C90EF124FFCD2B00D03BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20C90EF424FFCD2B00D03BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20C90EF624FFCD2B00D03BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4FBC4C1CAC540120A82D1B /* Pods-Transition-Animations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transition-Animations.release.xcconfig"; path = "Target Support Files/Pods-Transition-Animations/Pods-Transition-Animations.release.xcconfig"; sourceTree = "<group>"; };
+		4F36E68CE238D93ADCFE24F7 /* Pods-Transition-Animations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transition-Animations.debug.xcconfig"; path = "Target Support Files/Pods-Transition-Animations/Pods-Transition-Animations.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +59,93 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882AF3FE7511C893B01EBB54 /* Pods_Transition_Animations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2000FADB25010C5B00414865 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2000FADC25010D8700414865 /* TabBarController */,
+				20C90EEC24FFCD2800D03BD4 /* FirstViewController.swift */,
+				2000FAD524FFE06F00414865 /* SecondViewController.swift */,
+				2000FAD724FFE08900414865 /* DetailViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2000FADC25010D8700414865 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				2000FADD25010D9900414865 /* Utils */,
+				2000FAD124FFDEE200414865 /* TabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		2000FADD25010D9900414865 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2000FAD324FFDF0C00414865 /* TabBarBuilder.swift */,
+				2000FAD924FFE27300414865 /* TabBarItemType.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2000FADE25010DAF00414865 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2040CDC62508F3BF00EC3904 /* Requests */,
+				2000FADF25010DF700414865 /* APIClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		20342BA32509161600BA899E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20342BA42509162700BA899E /* Networking */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		20342BA42509162700BA899E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				20342BA52509163A00BA899E /* ErrorObject.swift */,
+				20342BA72509170900BA899E /* Response.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		20342BAB2509371100BA899E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				20342BAC2509373000BA899E /* GetInfoService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2040CDC62508F3BF00EC3904 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				2040CDC72508F3DD00EC3904 /* RequestBuilder.swift */,
+				20342B9F2508FAE700BA899E /* RequestProtocol.swift */,
+				20342BA92509357900BA899E /* GetInfoRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
 		20C90EDC24FFCD2800D03BD4 = {
 			isa = PBXGroup;
 			children = (
 				20C90EE724FFCD2800D03BD4 /* Transition-Animations */,
 				20C90EE624FFCD2800D03BD4 /* Products */,
+				976A4057B530F3A30D1181F4 /* Pods */,
+				413D81EEE640A12C2A9C348E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,18 +162,33 @@
 			children = (
 				20C90EE824FFCD2800D03BD4 /* AppDelegate.swift */,
 				20C90EEA24FFCD2800D03BD4 /* SceneDelegate.swift */,
-				2000FAD124FFDEE200414865 /* TabBarController.swift */,
-				2000FAD324FFDF0C00414865 /* TabBarBuilder.swift */,
-				2000FAD924FFE27300414865 /* TabBarItemType.swift */,
-				20C90EEC24FFCD2800D03BD4 /* FirstViewController.swift */,
-				2000FAD524FFE06F00414865 /* SecondViewController.swift */,
-				2000FAD724FFE08900414865 /* DetailViewController.swift */,
+				20342BA32509161600BA899E /* Models */,
+				2000FADE25010DAF00414865 /* Network */,
+				20342BAB2509371100BA899E /* Services */,
+				2000FADB25010C5B00414865 /* Screens */,
 				20C90EEE24FFCD2800D03BD4 /* Main.storyboard */,
 				20C90EF124FFCD2B00D03BD4 /* Assets.xcassets */,
 				20C90EF324FFCD2B00D03BD4 /* LaunchScreen.storyboard */,
 				20C90EF624FFCD2B00D03BD4 /* Info.plist */,
 			);
 			path = "Transition-Animations";
+			sourceTree = "<group>";
+		};
+		413D81EEE640A12C2A9C348E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D3DE6C2271E57899C34B81E /* Pods_Transition_Animations.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		976A4057B530F3A30D1181F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F36E68CE238D93ADCFE24F7 /* Pods-Transition-Animations.debug.xcconfig */,
+				2B4FBC4C1CAC540120A82D1B /* Pods-Transition-Animations.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20C90EF924FFCD2B00D03BD4 /* Build configuration list for PBXNativeTarget "Transition-Animations" */;
 			buildPhases = (
+				1936D55ADADB0878402C6409 /* [CP] Check Pods Manifest.lock */,
 				20C90EE124FFCD2800D03BD4 /* Sources */,
 				20C90EE224FFCD2800D03BD4 /* Frameworks */,
 				20C90EE324FFCD2800D03BD4 /* Resources */,
+				B1B9CE10004921B6BAC355D1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +259,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1936D55ADADB0878402C6409 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Transition-Animations-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1B9CE10004921B6BAC355D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Transition-Animations/Pods-Transition-Animations-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Transition-Animations/Pods-Transition-Animations-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Transition-Animations/Pods-Transition-Animations-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20C90EE124FFCD2800D03BD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -158,9 +311,16 @@
 				2000FAD224FFDEE200414865 /* TabBarController.swift in Sources */,
 				20C90EE924FFCD2800D03BD4 /* AppDelegate.swift in Sources */,
 				2000FADA24FFE27300414865 /* TabBarItemType.swift in Sources */,
+				20342BA62509163A00BA899E /* ErrorObject.swift in Sources */,
+				20342BAD2509373000BA899E /* GetInfoService.swift in Sources */,
+				20342BA82509170900BA899E /* Response.swift in Sources */,
+				2040CDC82508F3DD00EC3904 /* RequestBuilder.swift in Sources */,
+				20342BAA2509357900BA899E /* GetInfoRequest.swift in Sources */,
+				20342BA02508FAE700BA899E /* RequestProtocol.swift in Sources */,
 				20C90EEB24FFCD2800D03BD4 /* SceneDelegate.swift in Sources */,
 				2000FAD424FFDF0C00414865 /* TabBarBuilder.swift in Sources */,
 				2000FAD824FFE08900414865 /* DetailViewController.swift in Sources */,
+				2000FAE025010DF700414865 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +462,7 @@
 		};
 		20C90EFA24FFCD2B00D03BD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F36E68CE238D93ADCFE24F7 /* Pods-Transition-Animations.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -320,6 +481,7 @@
 		};
 		20C90EFB24FFCD2B00D03BD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B4FBC4C1CAC540120A82D1B /* Pods-Transition-Animations.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
